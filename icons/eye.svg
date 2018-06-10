@@ -1,0 +1,27 @@
+<svg id="eye" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb500;
+        fill-rule: evenodd;
+      }
+
+      .vi-primary, .vi-accent, .vi-prop {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+      }
+
+      .vi-accent {
+        fill: #070b2c;
+      }
+
+      .vi-prop {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M24,13c11.267,0,17,11.5,17,11.5S35.267,35,24,35,7,24.5,7,24.5,12.733,13,24,13Z"/>
+  <circle class="vi-accent" cx="24" cy="24" r="6"/>
+  <circle class="vi-prop" cx="24" cy="24" r="3"/>
+</svg>

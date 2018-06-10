@@ -1,0 +1,22 @@
+<svg id="map-marker" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+        fill-rule: evenodd;
+      }
+
+      .vi-primary, .vi-accent {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M24,6c7.732,0,14,5.641,14,12.6C38,29.963,24,42,24,42S10,30.064,10,18.6C10,11.641,16.268,6,24,6Z"/>
+  <circle class="vi-accent" cx="24" cy="20" r="7"/>
+</svg>

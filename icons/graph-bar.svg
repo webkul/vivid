@@ -1,0 +1,21 @@
+<svg id="graph-bar" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <rect class="vi-accent" x="6" y="35" width="36" height="4"/>
+  <path class="vi-primary" d="M9,20h5V35H9V20Zm8,5h5V35H17V25Zm8-9h5V35H25V16Zm8-7h5V35H33V9Z"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg id="building" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+      }
+
+      .vi-primary, .vi-accent {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M41,42H8V7H25V17.99H41V42Z"/>
+  <path class="vi-accent" d="M35.012,39V36.01h3V39h-3Zm0-8.01h3v3.018h-3V30.99Zm0-4.992h3v2.989h-3V26Zm0-4.993h3V24h-3v-2.99Zm-5,15.005h3V39h-3V36.01Zm0-5.021h3v3.018h-3V30.99Zm0-4.992h3v2.989h-3V26Zm0-4.993h3V24h-3v-2.99ZM25,18h2V42H25V18ZM11.994,37h9.012v2.015H11.994V37Zm0-5h9.012v2.015H11.994V31.994Zm0-5h9.012v2.015H11.994V26.992Zm0-5h9.012v2.015H11.994V21.991Zm0-5h9.012V19H11.994V16.989Zm0-5h9.012V14H11.994V11.987Z"/>
+</svg>

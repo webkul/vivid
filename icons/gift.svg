@@ -1,0 +1,22 @@
+<svg id="gift" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M8,20H40V43H8V20Zm3-9a4.939,4.939,0,0,1,4.875-5c1.866,0,2.2.489,4.125,2l4,3,4-3c1.711-1.621,2.259-2,4.125-2A4.939,4.939,0,0,1,37,11a4.939,4.939,0,0,1-4.875,5H15.875A4.939,4.939,0,0,1,11,11Zm21,2a2,2,0,0,0,0-4,2.463,2.463,0,0,0-1.776,1.1L27,13h5ZM17.776,10.1A2.463,2.463,0,0,0,16,9a2,2,0,0,0,0,4h5Z"/>
+  <path class="vi-accent" d="M15.875,16H39.99v4H26V43H22V20H7.99V16h7.885Z"/>
+</svg>

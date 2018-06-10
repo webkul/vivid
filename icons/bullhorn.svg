@@ -1,0 +1,19 @@
+<svg id="bullhorn" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M10.248,32.648l1.359,7.366L17.945,40,16,32ZM17,32L14,22,32.518,8,39,35Z"/>
+  <path class="vi-accent" d="M20,17l7-5,5,22-8-1ZM7,30c-0.633-2.541.638-5.319,3-6l4-2,3,10-4,1C10.638,33.681,7.633,32.542,7,30ZM36.82,25.917L34.5,16.255A4.945,4.945,0,0,1,36,16,4.992,4.992,0,0,1,36.82,25.917Z"/>
+</svg>

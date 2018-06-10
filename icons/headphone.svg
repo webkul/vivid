@@ -1,0 +1,22 @@
+<svg id="headphone" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M10,21v3h3V21H10Zm25,0v3h3V21H35ZM11,24h2V40H11a5,5,0,0,1-5-5V29A5,5,0,0,1,11,24Zm24,0h2a5,5,0,0,1,5,5v6a5,5,0,0,1-5,5H35V24Z"/>
+  <path class="vi-accent" d="M35.789,21C34.552,14.817,29.755,10.2,24,10.2S13.448,14.817,12.211,21H10.03C11.425,13.574,17.134,8,24,8s12.575,5.573,13.97,13H35.789ZM13,24h3V40H13V24ZM6,28H9v8H6V28Zm26-4h3V40H32V24Zm7,4h3v8H39V28Z"/>
+</svg>

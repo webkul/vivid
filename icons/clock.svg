@@ -1,0 +1,22 @@
+<svg id="clock" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent{
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <circle class="vi-primary" cx="24" cy="24" r="18"/>
+  <circle class="vi-accent" cx="24" cy="24" r="14"/>
+  <path class="vi-primary" d="M21,16V27h9V24H24V16H21Z"/>
+</svg>

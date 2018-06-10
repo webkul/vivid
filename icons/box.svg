@@ -1,0 +1,22 @@
+<svg id="box" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect class="vi-primary" x="8" y="17" width="32" height="24"/>
+  <path class="vi-accent" d="M40,17H26l7-9H47ZM1,8H15l7,9H8ZM40,41H8V39H40v2Z"/>
+</svg>

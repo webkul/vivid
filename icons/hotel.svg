@@ -1,0 +1,19 @@
+<svg id="hotel" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M14,7l2,2H31l2-2H14ZM12,28V41H36V28H12Zm2-14H34v9H14V14Z"/>
+  <path class="vi-accent" d="M13,14L8,9H39l-5,5H13Zm4,1h4v3.017H17V15Zm4,6.983H17V19.005h4v2.977ZM22,15h4v3.017H22V15Zm4,6.983H22V19.005h4v2.977ZM27,15h4v3.017H27V15Zm4,6.983H27V19.005h4v2.977ZM37,29H11L5,23H43Zm-8,5H28v7H20V34H19V31H29v3Z"/>
+</svg>

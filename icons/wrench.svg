@@ -1,0 +1,26 @@
+<svg id="wrench" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent, .vi-prop {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+
+      .vi-prop {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="vi-accent" d="M7,36L24,19l6,6L13,42Z"/>
+  <path class="vi-primary" d="M23.206,24.763a11,11,0,0,1,0-15.556A11.952,11.952,0,0,1,36,7l-8,8v5h5l8-7a10.314,10.314,0,0,1-2.238,11.763A11,11,0,0,1,23.206,24.763Z"/>
+  <circle class="vi-prop" cx="14" cy="35" r="2"/>
+</svg>

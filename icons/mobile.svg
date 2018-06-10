@@ -1,0 +1,16 @@
+<svg id="mobile" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect class="vi-primary" x="13" y="3" width="22" height="42"/>
+  <path class="vi-accent" d="M24,39a2,2,0,1,1-2,2A2,2,0,0,1,24,39ZM16,7H32V37H16V7Z"/>
+</svg>

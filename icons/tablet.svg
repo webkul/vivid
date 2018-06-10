@@ -1,0 +1,16 @@
+<svg id="tablet" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect class="vi-primary" x="10" y="3" width="28" height="42"/>
+  <path class="vi-accent" d="M24,39a2,2,0,1,1-2,2A2,2,0,0,1,24,39ZM13,7H35V37H13V7Z"/>
+</svg>

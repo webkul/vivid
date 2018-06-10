@@ -1,0 +1,19 @@
+<svg id="bottle" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb500;
+      }
+
+      .vi-primary, .vi-accent {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070b2c;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M20,8V5h8V8H20ZM16,43V25.187c0-10.6,8-10.179,8-10.179h0s8-.57,8,10.179V43H16Z"/>
+  <path class="vi-accent" d="M21,16V8h6v8H21Zm4,9h7V37H25V25Z"/>
+</svg>

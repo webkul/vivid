@@ -1,0 +1,22 @@
+<svg id="website" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect class="vi-primary" x="7" y="10" width="34" height="28"/>
+  <path class="vi-accent" d="M7,10H41v3H7V10Zm4,7H37v5H11V17Zm0,9h8v8H11V26Zm11,0H37v3H22V26Zm0,5h8v3H22V31Z"/>
+</svg>

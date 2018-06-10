@@ -1,0 +1,20 @@
+<svg id="badge" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M17.012,29V43L24,36l6.988,7V29H17.012Z"/>
+  <circle class="vi-accent" cx="24" cy="19" r="14"/>
+  <circle class="vi-primary" cx="24" cy="19" r="6"/>
+</svg>

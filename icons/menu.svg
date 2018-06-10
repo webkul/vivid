@@ -1,0 +1,22 @@
+<svg id="menu" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M9,12H39v4H9V12ZM9,22H39v4H9V22ZM9,32H39v4H9V32Z"/>
+  <path class="vi-accent" d="M9,12h4v4H9V12ZM9,22h4v4H9V22ZM9,32h4v4H9V32ZM35,12h4v4H35V12Zm0,10h4v4H35V22Zm0,10h4v4H35V32Z"/>
+</svg>

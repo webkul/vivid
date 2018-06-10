@@ -1,0 +1,19 @@
+<svg id="move" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M34,30l-2-2,2-2H26v8l2-2,2,2-5,5H24l-5-5,2-2,2,2V26H15l2,2-2,2-5-5V24l5-5,2,2-2,2h8V15l-2,2-2-2,5-5h1l5,5-2,2-2-2v8h8l-2-2,2-2,5,5v1Z"/>
+  <path class="vi-accent" d="M19,23v3h4v4h3V26h4V23H26V19H23v4H19Z"/>
+</svg>

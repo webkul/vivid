@@ -1,0 +1,14 @@
+<svg id="heart" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M24,40S7,35.578,7,18.482C7,13.245,11.349,8,16.714,8A10.088,10.088,0,0,1,24,11.556,10.088,10.088,0,0,1,31.286,8C36.651,8,41,13.245,41,18.482,41,35.523,24,40,24,40Z"/>
+</svg>

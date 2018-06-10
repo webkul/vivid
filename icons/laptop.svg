@@ -1,0 +1,19 @@
+<svg id="laptop" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M43,35H5V9H43V35Z"/>
+  <path class="vi-accent" d="M8,12H40V32H8V12ZM47,39H1V35H47v4Z"/>
+</svg>

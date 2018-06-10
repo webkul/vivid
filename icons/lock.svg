@@ -1,0 +1,16 @@
+<svg id="lock" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect class="vi-primary" x="11" y="18" width="26" height="23"/>
+  <path class="vi-accent" d="M31,18V15a7.213,7.213,0,0,0-7-7c-3.584,0-7,3.863-7,7v3H14V15A10.068,10.068,0,0,1,24,5c6.188,0,10,5.656,10,10v3H31ZM11,39H37v2H11V39ZM24,24a4,4,0,1,1-4,4A4,4,0,0,1,24,24Zm-2,4h4v8H22V28Z"/>
+</svg>

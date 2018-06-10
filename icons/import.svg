@@ -1,0 +1,19 @@
+<svg id="import" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect class="vi-primary" x="15" y="10" width="28" height="28"/>
+  <path class="vi-accent" d="M4,25H27l-3,3,2,2,6-6V23l-6-6-2,2,3,3H4v3Z"/>
+</svg>

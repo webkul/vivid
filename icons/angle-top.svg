@@ -1,0 +1,22 @@
+<svg id="angle-top" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M9,30L24,15,39,30l-3,3L24,21,12,33Z"/>
+  <path class="vi-accent" d="M17.5,27.5l-3-3L9,30l3,3Zm13,0L36,33l3-3-5.5-5.5Z"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg id="pencil" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M33.694,5.994l8.312,8.312L17.07,39.243,8.758,30.93Z"/>
+  <path class="vi-accent" d="M33.694,5.994l8.312,8.312L37.85,18.462,29.538,10.15ZM5.987,42.013L8.758,30.93l8.312,8.312Z"/>
+</svg>

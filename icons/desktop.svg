@@ -1,0 +1,15 @@
+<svg id="desktop" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M43,36H5V9H43V36ZM31,43H17V41H31v2Z"/>
+  <path class="vi-accent" d="M8,33V12H40V33H8Zm11,3H29v3l2,2H17l2-2V36Z"/>
+</svg>

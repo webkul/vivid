@@ -1,0 +1,19 @@
+<svg id="cup" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M35,11L32,41H16L13,11H10l5-4H33l5,4H35Z"/>
+  <path class="vi-accent" d="M13,11H35l-0.3,3H13.3ZM24,21a4,4,0,1,1-4,4A4,4,0,0,1,24,21Z"/>
+</svg>

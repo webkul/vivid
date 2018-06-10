@@ -1,0 +1,26 @@
+<svg id="van" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb500;
+      }
+
+      .vi-primary, .vi-accent, .vi-prop {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #070b2c;
+      }
+
+      .vi-prop {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M4,11V33.012H29.994V11H4Z"/>
+  <path class="vi-accent" d="M29.994,17.014H38.32l5.68,6v10H29.994v-16Z"/>
+  <circle class="vi-accent" cx="12" cy="33" r="5"/>
+  <circle class="vi-primary" cx="37" cy="33" r="5"/>
+  <path class="vi-prop" d="M12,31a2,2,0,1,1-2,2A2,2,0,0,1,12,31Zm25,0a2,2,0,1,1-2,2A2,2,0,0,1,37,31ZM36,20l4,4H33V20h3Z"/>
+</svg>

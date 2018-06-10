@@ -1,0 +1,19 @@
+<svg id="flag" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M31,25l8,8H18V28H13V10H27v7H39Z"/>
+  <path class="vi-accent" d="M9,8h4V43H9V8ZM26,28l-8,5V28h8Z"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg id="vr" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb500;
+      }
+
+      .vi-primary, .vi-accent {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070b2c;
+      }
+    </style>
+  </defs>
+  <path class="vi-accent" d="M19.035,26.992L19,32.006H29l-0.039-5.014H19.035Z"/>
+  <path class="vi-primary" d="M30,35l-2.945-5.685c-1.619-3.125-4.5-3.125-6.123,0L17.743,35H7V15H41V35H30Z"/>
+  <path class="vi-accent" d="M35.995,14.988L36,12H12l0.005,2.988H35.995ZM41,21h2v7H41V21ZM5,21H7v7H5V21Zm10.5,1A2.5,2.5,0,1,1,13,24.5,2.5,2.5,0,0,1,15.5,22Zm17,0A2.5,2.5,0,1,1,30,24.5,2.5,2.5,0,0,1,32.5,22Z"/>
+</svg>

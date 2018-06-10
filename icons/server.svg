@@ -1,0 +1,24 @@
+<svg id="server" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent, .vi-prop {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+
+      .vi-prop {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M11,14H37v7H11V14Zm0,14H37v7H11V28Z"/>
+  <path class="vi-accent" d="M11,7H37v7H11V7Zm0,14H37v7H11V21Zm0,14H37v7H11V35Z"/>
+  <path class="vi-prop" d="M14.5,37A1.5,1.5,0,1,1,13,38.5,1.5,1.5,0,0,1,14.5,37Zm0-7A1.5,1.5,0,1,1,13,31.5,1.5,1.5,0,0,1,14.5,30Zm0-7A1.5,1.5,0,1,1,13,24.5,1.5,1.5,0,0,1,14.5,23Zm0-7A1.5,1.5,0,1,1,13,17.5,1.5,1.5,0,0,1,14.5,16Zm0-7A1.5,1.5,0,1,1,13,10.5,1.5,1.5,0,0,1,14.5,9Z"/>
+</svg>

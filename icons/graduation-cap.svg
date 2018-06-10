@@ -1,0 +1,19 @@
+<svg id="graduation-cap" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-accent" d="M24,41L11,33V22H37V33ZM6,34a2.993,2.993,0,0,1-1-5.816V20l2,1v7.184A2.993,2.993,0,0,1,6,34Z"/>
+  <path class="vi-primary" d="M24,7.012l21.986,12.5L24,32.013,2.014,19.513Z"/>
+</svg>

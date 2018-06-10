@@ -1,0 +1,20 @@
+<svg id="calendar" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M7,41V7.009H42V41H7Z"/>
+  <path class="vi-accent" d="M10.007,17.013h4.984V22H10.007V17.013Zm7.991,0h5.014V22H18V17.013Zm7.99,0H31V22H25.988V17.013Zm-15.981,8h4.984V30H10.007V25.009Zm7.991,0h5.014V30H18V25.009Zm7.99,0H31V30H25.988V25.009ZM10.007,33h4.984v4.987H10.007V33ZM18,33h5.014v4.987H18V33Zm7.99,0H31v4.987H25.988V33Zm8.021-15.991h4.983V22H34.009V17.013Zm0,8h4.983V30H34.009V25.009Zm0,8h4.983v4.987H34.009V33ZM7,7H42v7H7V7Z"/>
+  <path class="vi-primary" d="M15,4h4v6H15V4ZM30,4h4v6H30V4Z"/>
+</svg>

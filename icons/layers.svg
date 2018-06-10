@@ -1,0 +1,23 @@
+<svg id="layers" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #ffb400;
+      }
+
+      .vi-primary, .vi-accent {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #070c2b;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M24,20.6l17.013,9.7L24,39.99l-17.013-9.7Z"/>
+  <path class="vi-accent" d="M24,14.8l17.013,9.7L24,34.2,6.987,24.5Z"/>
+  <path class="vi-primary" d="M24,9.01l17.013,9.7L24,28.4l-17.013-9.7Z"/>
+</svg>
