@@ -1,1 +1,0 @@
-import {vividNode} from './inject';

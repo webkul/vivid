@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icons" class="cls-1" d="M41,19L24,49H58ZM15,12A12,12,0,1,1,3,24,12,12,0,0,1,15,12Z"/>
+</svg>
