@@ -140,7 +140,7 @@ header {
     transition: .15s ease-in-out;
 }
 
-.button-cta:hover{
+.button-cta:hover {
     opacity: .9;
 }
 
@@ -205,14 +205,15 @@ h4 {
     line-height: 1.4;
 }
 
-.icons-preview p{
+.icons-preview p {
     font-size: 16px;
     color: #220A41;
     font-weight: 500;
     line-height: 1.4;
 }
 
-.vi-primary, .vi-accent{
+.vi-primary,
+.vi-accent {
     transition: .25s
 }
 
@@ -226,11 +227,11 @@ h4 {
     margin: 15px;
 }
 
-.themes-block{
+.themes-block {
     margin: 35px auto 15px auto;
 }
 
-.theme-brick{
+.theme-brick {
     width: 48px;
     height: 48px;
     position: relative;
@@ -241,7 +242,7 @@ h4 {
     margin: 0 5px;
 }
 
-.theme-brick:after{
+.theme-brick:after {
     border-radius: 50%;
     content: "";
     position: absolute;
@@ -249,21 +250,24 @@ h4 {
     left: 0;
     width: 48px;
     height: 48px;
-    box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,0);
+    box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255, 0);
     transition: .25s;
 }
 
-.theme-brick.active:after, .theme-brick:hover:after{
-    box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,.50);
+.theme-brick.active:after,
+.theme-brick:hover:after {
+    box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255, .50);
 }
-.color-primary{
+
+.color-primary {
     width: 48px;
     height: 24px;
     position: absolute;
     top: 0;
     left: 0;
 }
-.color-accent{
+
+.color-accent {
     width: 48px;
     height: 24px;
     position: absolute;
@@ -271,41 +275,45 @@ h4 {
     left: 0;
 }
 
-.yellow .color-primary{
+.yellow .color-primary {
     background-color: #FFB400;
 }
-.yellow .color-accent{
-    background-color: #070C2B; 
+
+.yellow .color-accent {
+    background-color: #070C2B;
 }
 
-.blue .color-primary{
+.blue .color-primary {
     background-color: #00B0FF;
 }
-.blue .color-accent{
-    background-color: #0C0082; 
+
+.blue .color-accent {
+    background-color: #0C0082;
 }
 
-.red .color-primary{
+.red .color-primary {
     background-color: #FF7474;
 }
-.red .color-accent{
-    background-color: #140C65; 
+
+.red .color-accent {
+    background-color: #140C65;
 }
 
-.turquoise .color-primary{
+.turquoise .color-primary {
     background-color: #2CE7A9;
 }
-.turquoise .color-accent{
-    background-color: #24138A; 
+
+.turquoise .color-accent {
+    background-color: #24138A;
 }
 
-.pink .color-primary{
+.pink .color-primary {
     background-color: #FFB5DF;
 }
-.pink .color-accent{
-    background-color: #0518D2; 
-}
 
+.pink .color-accent {
+    background-color: #0518D2;
+}
 
 .code-block {
     background: rgba(0, 0, 0, .27);
@@ -329,9 +337,10 @@ noscript {
 .space-25 {
     padding: 25px 0 15px 0;
 }
-.space-bottom-40{
-    padding-bottom: 40px; 
-}   
+
+.space-bottom-40 {
+    padding-bottom: 40px;
+}
 
 .perk-brick .code-block,
 .interaction-brick .code-block {
@@ -591,7 +600,7 @@ a:visited.button {
     }
 }
 
-.cheatsheet-brick{
+.cheatsheet-brick {
     width: 340px;
     padding: 5px;
     margin: 15px;
@@ -603,20 +612,130 @@ a:visited.button {
     text-align: left;
 }
 
-.cheatsheet-brick svg, .cheatsheet-brick label{
+.cheatsheet-brick svg,
+.cheatsheet-brick label {
     display: inline-block;
     vertical-align: middle;
 }
 
-.cheatsheet-brick label{
+.cheatsheet-brick label {
     font-size: 16px;
     color: #220A41;
     font-weight: 500;
     margin-left: 5px;
 }
 
+/* Overlay */
+
+.overflow-blocked {
+    overflow: hidden;
+}
+
+.fade-overlay {
+    background-color: rgba(255, 255, 255, .85);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    animation: fade-in-dg .35s ease-in-out;
+    z-index: 49;
+    display: none;
+}
+
+.fade-overlay-show{
+    display: block;
+}
+
+.fade-overlay .dialog {
+    position: relative;
+    max-width: 90%;
+    width: 600px;
+    padding: 25px 25px 65px 25px;
+    max-width: 100%;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin: 90px auto;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1), 0px 7px 60px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: pop-in-dg .45s ease-in-out forwards;
+    z-index: 50;
+}
+
+.fade-overlay.hide-overlay{
+    animation: fade-out-dg .35s ease-in-out forwards;
+}
+
+.fade-overlay.hide-overlay {
+    color: #d85537;
+}
+
+.fade-overlay .dialog p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #220A41;
+}
+
+.fade-overlay .dialog .buttons a {
+    min-width: 150px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #FFF;
+    padding: 12px 15px;
+    display: inline-block;
+    border-radius: 3px;
+    border-bottom: solid 2px rgba(0, 0, 0, .25);
+}
+
+.fade-overlay .dialog .buttons a:hover {
+    opacity: .90;
+}
+
+.fade-overlay .dialog .buttons a:active {
+    border-bottom: transparent;
+}
+
+.fade-overlay .dialog .buttons a:first-child {
+    background: #d85537;
+}
+
+.fade-overlay .dialog .buttons a:last-child {
+    background: #F2F2F2;
+    color: #220A41;
+}
+
+@keyframes fade-in-dg {
+    from {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    to {
+        background-color: rgba(255, 255, 255, .85);
+    }
+}
+
+@keyframes fade-out-dg {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes pop-in-dg {
+    from {
+        transform: translateY(-250px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
 @media screen and (max-width: 480px) {
-    .cheatsheet-brick{
+    .cheatsheet-brick {
         width: 100%;
         display: block;
         margin: 15px 0;
