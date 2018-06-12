@@ -10,7 +10,15 @@ let watchInjection = function () {
     vividNode.forEach(function (item, key) {
         let tempIconNode = item;
         let tempIconNodeData = tempIconNode.dataset.vi;
-        let overNode = iconObject[tempIconNodeData];
+        let overNode;
+        
+        if(iconObject[tempIconNodeData]){
+            /*
+            Clone the icon SVG each time, otherwise it would be impossible to render the same icon twice.
+            The second icon would "steal" the DOM element from the first one if you don't clone it every time.
+            */
+            overNode = iconObject[tempIconNodeData].cloneNode(true);
+        }
 
         if (tempIconNodeData.indexOf("-") !== -1) {
             tempIconNodeData = tempIconNodeData.replace(/-([a-z])/g, function (i) {
