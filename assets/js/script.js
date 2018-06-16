@@ -53,23 +53,27 @@ document.addEventListener("DOMContentLoaded", function () {
     //Distro
     var chDistroWrapper = document.querySelector(".ch-distro-wrapper");
     var chDistroIcon = document.querySelector(".ch-distro-icon");
-    chDistroIcon.addEventListener("click", function () {
-        if (this.classList.contains("ch-distro-icon-active")) {
-            chDistroWrapper.classList.remove("ch-distro-wrapper-flap-up");
-            chDistroWrapper.classList.add("ch-distro-wrapper-flap-down");
-            setTimeout(function () {
-                chDistroIcon.classList.remove("ch-distro-icon-active");
-                chDistroWrapper.classList.remove("ch-distro-wrapper-visible");
-            }, 400);
-        } else {
-            if (chDistroWrapper.classList.contains("ch-distro-wrapper-flap-down")) {
-                chDistroWrapper.classList.remove("ch-distro-wrapper-flap-down");
+    
+    if(chDistroIcon != undefined && chDistroWrapper != undefined){
+        chDistroIcon.addEventListener("click", function () {
+            if (this.classList.contains("ch-distro-icon-active")) {
+                chDistroWrapper.classList.remove("ch-distro-wrapper-flap-up");
+                chDistroWrapper.classList.add("ch-distro-wrapper-flap-down");
+                setTimeout(function () {
+                    chDistroIcon.classList.remove("ch-distro-icon-active");
+                    chDistroWrapper.classList.remove("ch-distro-wrapper-visible");
+                }, 400);
+            } else {
+                if (chDistroWrapper.classList.contains("ch-distro-wrapper-flap-down")) {
+                    chDistroWrapper.classList.remove("ch-distro-wrapper-flap-down");
+                }
+                chDistroWrapper.classList.add("ch-distro-wrapper-visible");
+                chDistroWrapper.classList.add("ch-distro-wrapper-flap-up");
+                this.classList.add("ch-distro-icon-active");
             }
-            chDistroWrapper.classList.add("ch-distro-wrapper-visible");
-            chDistroWrapper.classList.add("ch-distro-wrapper-flap-up");
-            this.classList.add("ch-distro-icon-active");
-        }
-    });
+        });
+    }
+
     var closeNotification = document.querySelector(".notification-close");
         var wrapperNotification = document.querySelector(".notification-wrapper");
         var createDate = new Date();
