@@ -3,4 +3,4 @@ export let iconConfig = {
     primaryColor: "#FFB400",
     accentColor: "#070C2B",
     propColor: "#FFFFFF"
-}
+};

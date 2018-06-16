@@ -1,28 +1,26 @@
 import { iconConfig } from './config';
 import { attrConstructor } from './attr';
 import icons from './../dist/icons.json';
-let iconObject = icons;
+const iconObject = icons;
 export let vividNode;
 
-// Replace and Inject SVG Node 
-let watchInjection = function () {
+// Replace and Inject SVG Node
+const watchInjection = () => {
     vividNode = document.querySelectorAll("[data-vi]");
-    vividNode.forEach(function (item, key) {
-        let tempIconNode = item;
+    vividNode.forEach((item, key) => {
+        const tempIconNode = item;
         let tempIconNodeData = tempIconNode.dataset.vi;
-        let overNode = iconObject[tempIconNodeData];
+        const overNode = iconObject[tempIconNodeData];
 
         if (tempIconNodeData.indexOf("-") !== -1) {
-            tempIconNodeData = tempIconNodeData.replace(/-([a-z])/g, function (i) {
-                return i[1].toUpperCase();
-            });
+            tempIconNodeData = tempIconNodeData.replace(/-([a-z])/g, i => i[1].toUpperCase());
         }
 
-        var iconNode = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        const iconNode = document.createElementNS("http://www.w3.org/2000/svg", "svg");
         iconNode.innerHTML = iconObject[tempIconNodeData];
-        let primaryElement = iconNode.querySelectorAll(".vi-primary");
-        let accentElement = iconNode.querySelectorAll(".vi-accent");
-        let propElement = iconNode.querySelectorAll(".vi-prop");
+        const primaryElement = iconNode.querySelectorAll(".vi-primary");
+        const accentElement = iconNode.querySelectorAll(".vi-accent");
+        const propElement = iconNode.querySelectorAll(".vi-prop");
 
         // Customise Primary Color
         if (primaryElement != undefined && primaryElement != null) {
@@ -75,21 +73,21 @@ let watchInjection = function () {
             }
 
             if (tempIconNode.dataset.viPrimary !== undefined && tempIconNode.dataset.viPrimary !== null) {
-                let tempPrimaryNode = iconNode.querySelectorAll(".vi-primary");
+                const tempPrimaryNode = iconNode.querySelectorAll(".vi-primary");
                 for (let i = 0; i < tempPrimaryNode.length; i++) {
                     tempPrimaryNode[i].style.fill = tempIconNode.dataset.viPrimary;
                 }
             }
 
             if (tempIconNode.dataset.viAccent !== undefined && tempIconNode.dataset.viAccent !== null) {
-                let tempAccentNode = iconNode.querySelectorAll(".vi-accent");
+                const tempAccentNode = iconNode.querySelectorAll(".vi-accent");
                 for (let i = 0; i < tempAccentNode.length; i++) {
                     tempAccentNode[i].style.fill = tempIconNode.dataset.viAccent;
                 }
             }
 
             if (tempIconNode.dataset.viProp !== undefined && tempIconNode.dataset.viProp !== null) {
-                let tempPropNode = iconNode.querySelectorAll(".vi-prop");
+                const tempPropNode = iconNode.querySelectorAll(".vi-prop");
                 for (let i = 0; i < tempPropNode.length; i++) {
                     tempPropNode[i].style.fill = tempIconNode.dataset.viProp;
                 }
@@ -97,7 +95,7 @@ let watchInjection = function () {
 
             tempIconNode.parentNode.replaceChild(iconNode, tempIconNode);
         } else {
-            let errorString = "%c Vivid Error: No icon found for data-vi=\"" + tempIconNodeData + "\"";
+            const errorString = "%c Vivid Error: No icon found for data-vi=\"" + tempIconNodeData + "\"";
             console.log(errorString, "color: #ff4646; font-weight: bold");
         }
     });
@@ -107,7 +105,5 @@ let watchInjection = function () {
 if (document.readyState !== "loading") {
     watchInjection();
 } else {
-    document.addEventListener("DOMContentLoaded", function () {
-        watchInjection();
-    });
+    document.addEventListener("DOMContentLoaded", watchInjection);
 }
