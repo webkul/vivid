@@ -1,23 +1,24 @@
 <html>
+
 <head>
     <!-- Google Tag Manager -->
     <script>
-            (function (w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js'
-                });
-                var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s),
-                    dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-NRS3RBH');
-        </script>
-        <!-- End Google Tag Manager -->
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NRS3RBH');
+    </script>
+    <!-- End Google Tag Manager -->
     <title>SVG Icons Library - Vivid.js</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
@@ -36,13 +37,22 @@
     <meta property="og:image" content="https://webkul.com/blog/wp-content/uploads/2018/06/vivid-cover.png">
     <meta name="keywords" content="vivid, vivid js, vivid icons, svg, svg icons, library">
     <meta name="description" content="JavaScript library which is built to easily customize and use the SVG Icons">
-    <link href="assets/css/style.min.css?1.0.1" rel="stylesheet" type="text/css">
-    <script src="assets/js/script.min.js?1.0.1" type="text/javascript"></script>
+    <link href="assets/css/style.min.css?1.0.3" rel="stylesheet" type="text/css">
+    <script src="assets/js/script.min.js?1.0.3" type="text/javascript"></script>
     <script src="assets/js/vivid-icons.min.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700|Rubik:400,500" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Notification -->
+    <div class="notification-wrapper">
+            <div class="notification-brick">
+                <p>Check out how Vivid SVG Icons Library can be used with React.JS</p>
+                <a class="notification-cta" href="http://bit.ly/vivid-yt" target="_blank" rel="noopener">View Now</a>
+            </div>
+            <span class="notification-close"></span>
+        </div>
+    <!-- //Notification -->
     <!--Container-->
     <div class="container">
         <!--Header-->
@@ -50,7 +60,7 @@
             <div class="hr-lt">
                 <ul>
                     <li>
-                       <a href="docs.html">Docs</a>
+                        <a href="docs.html">Docs</a>
                     </li>
                     <li>
                         <a href="cheatsheet.html">Cheatsheet</a>
@@ -73,8 +83,8 @@
             <div class="hr-rt">
                 <div class="social-channel">
                     <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-text="Vivid.JS - a JavaScript library which is built to easily customize and use the SVG Icons"
-                        data-via="webkul" data-hashtags="vivid, vividjs, svg, opensource" data-related="webkul,nitishkmrk"
-                        data-lang="en" data-show-count="false">Tweet</a>
+                        data-via="webkul" data-hashtags="vivid, vividjs, svg, opensource" data-related="webkul,nitishkmrk" data-lang="en"
+                        data-show-count="false">Tweet</a>
                 </div>
                 <div class="social-channel">
                     <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwebkul.github.io%2Fvivid%2F&layout=button&size=large&mobile_iframe=true&width=84&height=28&appId"
@@ -117,8 +127,9 @@
                 <div class="fluid-brick">
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 60 60">
-                        <path fill="#FFFFFF" d="M60,30L42.632,47l-4.737-4.636L50.526,30l-7.895-7.727L17.368,47,0,30,17.368,13l4.737,4.636L9.474,30l7.895,7.727L42.632,13l4.737,4.636h0Z"/>
-                      </svg>                      
+                        <path fill="#FFFFFF" d="M60,30L42.632,47l-4.737-4.636L50.526,30l-7.895-7.727L17.368,47,0,30,17.368,13l4.737,4.636L9.474,30l7.895,7.727L42.632,13l4.737,4.636h0Z"
+                        />
+                    </svg>
 
 
                     <h3>Easy to Use</h3>
@@ -129,8 +140,8 @@
 
                 <div class="fluid-brick">
                     <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 60 60">
-                        <path fill="#FFFFFF" d="M40,11H26L17,30H27L19.2,49,44,27H32Z"/>
-                      </svg>                                             
+                        <path fill="#FFFFFF" d="M40,11H26L17,30H27L19.2,49,44,27H32Z" />
+                    </svg>
 
                     <h3>Lightweight</h3>
                     <p>Vivid.js is super lightweight and minified version equals around just half size of the original SVG icons.</p>

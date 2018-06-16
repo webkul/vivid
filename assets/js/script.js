@@ -70,4 +70,33 @@ document.addEventListener("DOMContentLoaded", function () {
             this.classList.add("ch-distro-icon-active");
         }
     });
+    var closeNotification = document.querySelector(".notification-close");
+        var wrapperNotification = document.querySelector(".notification-wrapper");
+        var createDate = new Date();
+
+        if (wrapperNotification != undefined) {
+            if (typeof (Storage) !== "undefined") {
+                lastViewed = localStorage.getItem("lastView");
+                if (lastViewed != undefined) {
+                    if (lastViewed != createDate.getDate()) {
+                        wrapperNotification.classList.add("notification-visible");
+                    } else {
+                        wrapperNotification.classList.remove("notification-visible");
+                    }
+                } else {
+                    wrapperNotification.classList.add("notification-visible");
+                }
+            }
+        }
+
+        if (closeNotification != undefined) {
+            closeNotification.addEventListener("click", function () {
+                if (wrapperNotification != undefined) {
+                    wrapperNotification.parentNode.removeChild(wrapperNotification);
+                }
+                if (typeof (Storage) !== "undefined") {
+                    localStorage.setItem("lastView", createDate.getDate());
+                }
+            });
+        };
 });
