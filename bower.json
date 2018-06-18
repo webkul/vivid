@@ -6,15 +6,14 @@
   ],
   "license": "MIT",
   "keywords": [
-    "vivid",
-    "vivid",
-    "vivid icons",
-    "vivid icons library",
     "svg",
-    "svg icons js",
-    "svg icons library",
-    "svg js",
-    "svg javascript library"
+    "icon",
+    "icons",
+    "react",
+    "inline",
+    "svgicon",
+    "svgicons",
+    "vivid"
   ],
   "homepage": "https://webkul.github.io/vivid",
   "ignore": [
