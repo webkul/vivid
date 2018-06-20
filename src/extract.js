@@ -27,7 +27,17 @@ function extract(data) {
             let fileData = fs.readFileSync("./icons/" + item).toString();
             let dom = new JSDOM(fileData);
             let svgDefs = dom.window.document.querySelector("defs");
-            dom.window.document.querySelector("svg").removeChild(svgDefs);
+            if(svgDefs != undefined){
+                dom.window.document.querySelector("svg").removeChild(svgDefs);
+            }
+            let svgStyle= dom.window.document.querySelector("style");
+            if(svgStyle != undefined){
+                dom.window.document.querySelector("svg").removeChild(svgStyle);
+            }
+            let svgTitle = dom.window.document.querySelector("title");
+            if(svgTitle != undefined){
+                dom.window.document.querySelector("svg").removeChild(svgTitle);
+            }
             let fileDataCore = dom.window.document.querySelector("svg").innerHTML.replace(/\n/g, "");
             svgObject[fileName.slice(0, -4)] = fileDataCore;
         }
