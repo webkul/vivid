@@ -802,3 +802,7 @@ a:visited.button {
         margin: 3px 0;
     } 
 }
+
+b, strong{
+    font-weight: 500;
+}

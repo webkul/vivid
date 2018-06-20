@@ -2,7 +2,7 @@
 
 <head>
     <!-- Google Tag Manager -->
-    <script>
+    <!-- <script>
         (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
@@ -17,7 +17,7 @@
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-NRS3RBH');
-    </script>
+    </script> -->
     <!-- End Google Tag Manager -->
     <title>Docs - SVG Icons Library - Vivid.js</title>
     <meta charset="UTF-8">
@@ -65,7 +65,10 @@
                     <a href="#usage">Usage</a>
                 </li>
                 <li>
-                    <a href="#customization">Customization</a>
+                    <a href="#icon-customization">Icon Customization</a>
+                </li>
+                <li>
+                    <a href="#adding-icons">Adding Icons</a>
                 </li>
                 <li>
                     <a href="#credits">Credits</a>
@@ -83,9 +86,14 @@
                     <p>Vivid.JS is easy to adapt and can bring SVG icons to life using html5 data attributes on the go. Icons
                         can also be individually customized in terms of colors and size using html5 data attributes which
                         gives more power to Vivid.JS library.</p>
-                    <p>Vivid.JS SVG Icons ca be download and customized as per needs in different designing softwares like Photoshop and Sketch as well.</p>
-                    <p>Download Vivid.JS Icons for <a href="https://bit.ly/vivid-sketch" target="_blank" rel="noopener">Sketch</a></p>
-                    <p>Download Vivid.JS Icons for <a href="https://bit.ly/vivid-ps" target="_blank" rel="noopener"> Photoshop</a></p>
+                    <p>Vivid.JS SVG Icons ca be download and customized as per needs in different designing softwares like Photoshop
+                        and Sketch as well.</p>
+                    <p>Download Vivid.JS Icons for
+                        <a href="https://bit.ly/vivid-sketch" target="_blank" rel="noopener">Sketch</a>
+                    </p>
+                    <p>Download Vivid.JS Icons for
+                        <a href="https://bit.ly/vivid-ps" target="_blank" rel="noopener"> Photoshop</a>
+                    </p>
                 </div>
                 <!--//Block-->
 
@@ -102,8 +110,7 @@
                     <h1 id="installation">Installation</h1>
                     <p>Compiled
                         <span class="code-block">vivid-icons.min.js</span> JavaScript minified file can be directly linked from
-                        <a href="https://unpkg.com/"
-                            target="_blank" rel="nofollow">unpkg.com </a> CDN or Vivid.JS can be included within your workflow using your favorite package managers
+                        <a href="https://unpkg.com/" target="_blank" rel="nofollow">unpkg.com </a> CDN or Vivid.JS can be included within your workflow using your favorite package managers
                         as well.</p>
                     <h2>Link from UNPKG CDN</h2>
                     <p>You can include Vivid Icons JavaScript file in the header section of your document as shown below -</p>
@@ -115,11 +122,18 @@
 
                     <h2>Package Managers</h2>
                     <p>You can use either npm or bower to get the Vivid.JS package</p>
-                    <p>Copy and Paste the command below in your terminal to get package with npm -</p>
+                    <p>Copy and Paste the command below in your terminal to get package with
+                        <b>npm</b> -</p>
                     <p>
                         <span class="code-block">npm install vivid-icons</span>
                     </p>
-                    <p>Copy and Paste the command below in your terminal to get package with bower -</p>
+                    <p>Copy and Paste the command below in your terminal to get package with
+                        <b>yarn</b> -</p>
+                    <p>
+                        <span class="code-block">yarn add vivid-icons</span>
+                    </p>
+                    <p>Copy and Paste the command below in your terminal to get package with
+                        <b>bower</b> -</p>
                     <p>
                         <span class="code-block">bower install vivid-icons</span>
                     </p>
@@ -130,7 +144,7 @@
                 <div class="block">
                     <h1 id="usage">Usage</h1>
                     <p>Including icons with Vivid.JS is very easy and quick to use.</p>
-                    <h2>Adding an Icon</h2>
+                    <h2>Using an Icon</h2>
                     <p>An SVG Icon can be easily included using the syntax
                         <span class="code-block">&lt;i data-vi="icon-name"&gt;&lt;/i&gt;</span> , where
                         <span class="code-block">icon-name</span> is replaced by the unique name of the respective icon.</p>
@@ -139,7 +153,7 @@
                     <p class="example-code">Example Code Preview</p>
                     <i data-vi="doc"></i>
 
-                    <h2>Customizing Size</h2>
+                    <h2>Customizing Icon Size</h2>
                     <p>To customize the size of the respective icon, Add
                         <span class="code-block">data-vi-size="number"</span> data attribute to
                         <span class="code-block">i</span> element to customize size of the icon. </p>
@@ -148,7 +162,7 @@
                     <p class="example-code">Example Code Preview</p>
                     <i data-vi="doc" data-vi-size="96"></i>
 
-                    <h2>Customizing Colors</h2>
+                    <h2>Customizing Icon Colors</h2>
                     <p>Each Vivid Icon has upto three colors which are
                         <span class="code-block">primary</span>,
                         <span class="code-block">accent</span> and
@@ -167,7 +181,7 @@
                 <i data-vi="doc" data-vi-primary="#1A055D" data-vi-accent="#FF613D" data-vi-prop="#A1FFFE"></i>
 
                 <div class="block">
-                    <h1 id="customization">Customization</h1>
+                    <h1 id="icon-customization">Icon Customization</h1>
                     <p>Oh! Yes, You can customize the default size and colors of the
                         <span class="code-block">Vivid.JS</span> SVG Icons Library.</p>
                     <p class="example-code">Install Node.js</p>
@@ -177,7 +191,7 @@
                         <span class="code-block">npm -v</span> and it should return with something like
                         <span class="code-block">5.x.x</span>
                     </p>
-                    <p class="example-code">Install Vivid.JS Package</p>
+                    <p id="install-vivid" class="example-code">Install Vivid.JS Package</p>
                     <p>Install Vivid.JS SVG Icons Package with npm package manager using th command below -</p>
                     <div class="code-block">
                         npm install vivid-icons
@@ -210,7 +224,51 @@
                         npm run build
                     </div>
                     <p class="example-code">Voila! You're done</p>
-                    <p>Once the compilation process is over, your browser will fire up to show the compiled Vivid SVG Icons in your browser from the <span class="code-block">./dist/preview.html</span> file.</p>
+                    <p>Once the compilation process is over, your browser will fire up to show the compiled Vivid SVG Icons
+                        in your browser from the
+                        <span class="code-block">./dist/preview.html</span> file.</p>
+                    <p>**If you are using Windows environment replace the
+                        <span class="code-block">"open-html": "open ./dist/preview.html"</span> with
+                        <span class="code-block">"open-html": "show ./dist/preview.html"</span> in
+                        <span class="code-block">package.json</span> file.</p>
+                </div>
+
+                <div class="block">
+                    <h1 id="adding-icons">Adding Icons</h1>
+                    <p>If you wish to create your very own Vivid.JS with your custom icons, Follow the steps below -</p>
+                    <p>Once you have
+                        <a href="#install-vivid">installed Vivid.JS</a>,
+                        <span class="code-block">add/replace/remove</span> the icons from
+                        <span class="code-block">./icons</span> directory</p>
+                    <p>Make sure the SVG Icons which has been added must have
+                        <span class="code-block">vi-primary</span> and
+                        <span class="code-block">vi-accent</span> class to the respective
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element"
+                            target="_blank" rel="noopener">SVG Elements</a>, so that the colors can be customized later from
+                        <span class="code-block">src/config.js</span>.</p>
+                    <p class="example-code">Example Code</p>
+                    <div class="code-block code-space code-full">
+
+                    <pre> &#x3C;svg id=&#x22;chat&#x22; xmlns=&#x22;http://www.w3.org/2000/svg&#x22; width=&#x22;48&#x22; height=&#x22;48&#x22; viewBox=&#x22;0 0 48 48&#x22;&#x3E;
+    &#x3C;defs&#x3E;
+        &#x3C;style&#x3E;
+        .vi-primary {
+            fill: #ffb400;
+        }
+
+        .vi-accent {
+            fill: #070c2b;
+        }
+        &#x3C;/style&#x3E;
+    &#x3C;/defs&#x3E;
+    &#x3C;path class=&#x22;vi-primary&#x22; d=&#x22;M24,39.765A18.556,18.556,0,0,1,13.924,37.1L7,44V23.882l0.012,0.006C7.011,23.791,7,23.7,7,23.6,7,14.369,13.247,8,24,8s17,6.652,17,15.882S34.753,39.765,24,39.765Z&#x22;/&#x3E;   
+    &#x3C;path class=&#x22;vi-accent&#x22; d=&#x22;M31.994,20.99a3,3,0,1,1-3,3A3,3,0,0,1,31.994,20.99ZM24,21a3,3,0,1,1-3,3A3,3,0,0,1,24,21Zm-8,0a3,3,0,1,1-3,3A3,3,0,0,1,16,21Z&#x22;/&#x3E;   
+ &#x3C;/svg&#x3E;</pre>
+
+                    </div>
+                    <p>Go to the root directory of
+                        <span class="code-block">vivid-icons</span> and execute
+                        <span class="code-block">npm run build</span> command from terminal.</p>
                 </div>
 
                 <div class="block">
@@ -224,11 +282,9 @@
                         <a href="https://twitter.com/nitishkmrk" target="_blank">Author.</a>
                     </p>
                 </div>
-
             </div>
         </div>
     </div>
-
     <noscript>Vivid is Javascript Library and it doesn't work unless browser supports JavaScript :(</noscript>
     <!--//Scripts-->
 </body>
