@@ -117,7 +117,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"iconConfig\", function() { return iconConfig; });\nlet iconConfig = {\n    size: \"48\",\n    primaryColor: \"#FFB400\",\n    accentColor: \"#070C2B\",\n    propColor: \"#FFFFFF\"\n}\n\n//# sourceURL=webpack:///./src/config.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"iconConfig\", function() { return iconConfig; });\nlet iconConfig = {\n    size: \"48\",\n    primaryColor: \"#FF6E6E\",\n    accentColor: \"#0C0058\",\n    propColor: \"#FFFFFF\"\n}\n\n//# sourceURL=webpack:///./src/config.js?");
 
 /***/ }),
 

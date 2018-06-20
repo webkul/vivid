@@ -13,7 +13,8 @@
     "inline",
     "svgicon",
     "svgicons",
-    "vivid"
+    "vivid",
+    "builder"
   ],
   "homepage": "https://webkul.github.io/vivid",
   "ignore": [

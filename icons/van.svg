@@ -2,19 +2,15 @@
   <defs>
     <style>
       .vi-primary {
-        fill: #ffb500;
+        fill: #FF6E6E;
       }
 
-      .vi-primary, .vi-accent, .vi-prop {
-        fill-rule: evenodd;
-      }
-
-      .cls-2, .cls-3 {
-        fill: #070b2c;
+      .vi-accent {
+        fill: #0C0058;
       }
 
       .vi-prop {
-        fill: #fff;
+        fill: #FFFFFF;
       }
     </style>
   </defs>

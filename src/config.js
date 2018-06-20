@@ -1,6 +1,6 @@
 export let iconConfig = {
     size: "48",
-    primaryColor: "#FFB400",
-    accentColor: "#070C2B",
+    primaryColor: "#FF6E6E",
+    accentColor: "#0C0058",
     propColor: "#FFFFFF"
 }

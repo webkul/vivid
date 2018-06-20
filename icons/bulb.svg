@@ -2,11 +2,11 @@
   <defs>
     <style>
       .vi-primary {
-        fill: #ffb400;
+        fill: #FF6E6E;
       }
 
       .vi-accent {
-        fill: #070c2b;
+        fill: #0C0058;
       }
 
       .vi-prop {

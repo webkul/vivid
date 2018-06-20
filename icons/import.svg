@@ -2,14 +2,14 @@
   <defs>
     <style>
       .vi-primary {
-        fill: #ffb400;
+        fill: #FF6E6E;
         stroke: #fff;
         stroke-linecap: round;
         stroke-width: 0;
       }
 
       .vi-accent {
-        fill: #070c2b;
+        fill: #0C0058;
         fill-rule: evenodd;
       }
     </style>

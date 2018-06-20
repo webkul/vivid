@@ -2,7 +2,7 @@
   <defs>
     <style>
       .vi-primary {
-        fill: #ffb500;
+        fill: #FF6E6E;
         fill-rule: evenodd;
       }
 
@@ -13,11 +13,11 @@
       }
 
       .vi-accent {
-        fill: #070b2c;
+        fill: #0C0058;
       }
 
       .vi-prop {
-        fill: #fff;
+        fill: #FFFFFF;
       }
     </style>
   </defs>
