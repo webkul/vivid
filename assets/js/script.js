@@ -4,17 +4,17 @@ document.addEventListener("DOMContentLoaded", function () {
     var svgAccent;
     var getTheme;
     var theme = {
-        yellow: {
-            primary: "#FFB400",
-            accent: "#070C2B"
+        red: {
+            primary: "#FF6E6E",
+            accent: "#0C0058"
         },
         blue: {
             primary: "#00B0FF",
             accent: "#0C0082"
         },
-        red: {
-            primary: "#FF7474",
-            accent: "#140C65"
+        yellow: {
+            primary: "#FFB400",
+            accent: "#070C2B"
         },
         turquoise: {
             primary: "#2CE7A9",
