@@ -1,6 +1,6 @@
   {
   "name": "vivid-icons",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "a JavaScript library which is built to easily customize and use the SVG Icons with a blaze.",
   "keywords": [
     "svg",
@@ -13,6 +13,9 @@
     "vivid",
     "builder"
   ],
+  "main": "dist/vivid-icons.min.js",
+  "unpkg": "dist/vivid-icons.min.js",
+  "jsdelivr": "dist/vivid-icons.min.js",
   "scripts": {
     "build": "run-s build-json build-html build-bundle build-bundle-minify show-message open-html",
     "build-json": "node ./src/extract.js",

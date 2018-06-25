@@ -18,13 +18,19 @@ Download Vivid.JS Icons for [Photoshop](https://bit.ly/vivid-ps)
 To get started with Vivid.JS, you just need to include `vivid-icons.min.js` to your project.
 
 # Installation
-Compiled vivid-icons.min.js JavaScript minified file can be directly linked from [UNPKG](https://unpkg.com/#/) CDN or Vivid.JS can be included within your workflow using your favorite package managers as well.
+Compiled vivid-icons.min.js JavaScript minified file can be directly linked from [jsDelivr](https://www.jsdelivr.com/) or [UNPKG](https://unpkg.com/#/) CDN or Vivid.JS can be included within your workflow using your favorite package managers as well.
 
-## Link from UNPKG CDN
+## Link from jsDelivr or UNPKG CDN
 You can include Vivid Icons JavaScript file in the header section of your document as shown below -
 
 ```html
-<script src="https://unpkg.com/vivid-icons@1.0.7/dist/vivid-icons.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/vivid-icons" type="text/javascript"></script>
+```
+
+or
+
+```html
+<script src="https://unpkg.com/vivid-icons" type="text/javascript"></script>
 ```
 
 ## Package Managers
