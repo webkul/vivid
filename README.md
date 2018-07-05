@@ -20,7 +20,7 @@ To get started with Vivid.JS, you just need to include `vivid-icons.min.js` to y
 # Installation
 Compiled vivid-icons.min.js JavaScript minified file can be directly linked from [jsDelivr](https://www.jsdelivr.com/) or [UNPKG](https://unpkg.com/#/) CDN or Vivid.JS can be included within your workflow using your favorite package managers as well.
 
-## Link from jsDelivr or UNPKG CDN
+## Link from jsDelivr `(Recommended)` or UNPKG CDN
 You can include Vivid Icons JavaScript file in the header section of your document as shown below -
 
 ```html
