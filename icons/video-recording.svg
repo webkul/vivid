@@ -1,0 +1,25 @@
+<svg width="48px" height="48px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+    <style>
+      .vi-primary {
+        fill: #FF6E6E;
+      }
+
+      .vi-primary, .vi-accent {
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #0C0058;
+      }
+      .vi-prop {
+        fill: #ffffff;
+      }
+    </style>
+    </defs>
+        <g transform="translate(5.000000, 13.000000)" id="Shape">
+            <polygon class="vi-primary" points="29.002 22 0.011 22 0.011 0.996 29.002 0.996"></polygon>
+            <polygon class="vi-accent" points="38.995 22 29.002 14.773 29.002 8.223 38.995 0.996"></polygon>
+            <path class="vi-prop" d="M6.892,5.649 C6.892,6.988 5.795,8.074 4.443,8.074 C3.09,8.074 1.994,6.988 1.994,5.649 C1.994,4.31 3.09,3.224 4.443,3.224 C5.795,3.224 6.892,4.31 6.892,5.649 Z" fill-rule="nonzero"></path>
+        </g>
+</svg>
