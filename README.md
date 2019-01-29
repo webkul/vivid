@@ -24,13 +24,13 @@ Compiled vivid-icons.min.js JavaScript minified file can be directly linked from
 You can include Vivid Icons JavaScript file in the header section of your document as shown below -
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/vivid-icons" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.9" type="text/javascript"></script>
 ```
 
 or
 
 ```html
-<script src="https://unpkg.com/vivid-icons" type="text/javascript"></script>
+<script src="https://unpkg.com/vivid-icons@1.0.9" type="text/javascript"></script>
 ```
 
 ## Package Managers
