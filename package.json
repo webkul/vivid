@@ -1,46 +1,76 @@
 {
-  "name": "vivid-icons",
-  "version": "1.0.9",
+  "_from": "vivid-icons",
+  "_id": "vivid-icons@1.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-GbujWviLiiBeN3AyTyK5ERGS5CfQPZNshM1T81gwLwCmKjFwbOsjasx6PCI1jZizQkAya2UhmoWvgpxtPOBPnQ==",
+  "_location": "/vivid-icons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vivid-icons",
+    "name": "vivid-icons",
+    "escapedName": "vivid-icons",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vivid-icons/-/vivid-icons-1.0.9.tgz",
+  "_shasum": "99768813bf68dcd0c45c2a577a37144488eb1a0c",
+  "_spec": "vivid-icons",
+  "_where": "/Library/WebServer/Documents/dot",
+  "author": {
+    "name": "Nitish Kumar",
+    "email": "support@webkul.com"
+  },
+  "bugs": {
+    "url": "https://github.com/webkul/vivid/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "jsdom": "^11.11.0"
+  },
+  "deprecated": false,
   "description": "a JavaScript library which is built to easily customize and use the SVG Icons with a blaze.",
+  "devDependencies": {
+    "npm-run-all": "^4.1.3",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10"
+  },
+  "homepage": "https://github.com/webkul/vivid#readme",
+  "jsdelivr": "dist/vivid-icons.min.js",
   "keywords": [
     "svg",
     "icon",
     "icons",
     "react",
-    "inline",
-    "svgicon",
-    "svgicons",
+    "js",
+    "library",
+    "svg-icons",
     "vivid",
-    "builder"
+    "js-svg-icons"
   ],
+  "license": "MIT",
   "main": "dist/vivid-icons.min.js",
-  "unpkg": "dist/vivid-icons.min.js",
-  "jsdelivr": "dist/vivid-icons.min.js",
-  "scripts": {
-    "build": "run-s build-json build-html build-bundle build-bundle-minify show-message open-html",
-    "build-json": "node ./src/extract.js",
-    "build-html": "node ./src/show.js",
-    "build-bundle": "webpack --config webpack.dev.js",
-    "build-bundle-minify": "webpack --config webpack.prod.js",
-    "show-message": "node ./src/success.js",
-    "open-html": "open ./dist/preview.html"
-  },
+  "name": "vivid-icons",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webkul/vivid.git"
   },
-  "author": {
-    "name": "Nitish Kumar",
-    "email": "support@webkul.com"
+  "scripts": {
+    "build": "run-s build-json build-html build-bundle build-bundle-minify show-message open-html",
+    "build-bundle": "webpack --config webpack.dev.js",
+    "build-bundle-minify": "webpack --config webpack.prod.js",
+    "build-html": "node ./src/show.js",
+    "build-json": "node ./src/extract.js",
+    "open-html": "open ./dist/preview.html",
+    "show-message": "node ./src/success.js"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "npm-run-all": "^4.1.3",
-    "webpack": "^4.9.1",
-    "webpack-cli": "^2.1.4"
-  },
-  "dependencies": {
-    "chalk": "^2.4.1",
-    "jsdom": "^11.11.0"
-  }
+  "unpkg": "dist/vivid-icons.min.js",
+  "version": "1.0.10"
 }
